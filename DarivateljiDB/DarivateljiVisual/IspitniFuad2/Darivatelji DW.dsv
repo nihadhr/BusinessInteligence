@@ -1,0 +1,144 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="69817df7-fc80-4bbe-b1c1-f521f422c9ba" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Darivatelji DW</ID>
+  <Name>Darivatelji DW</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>DarivateljiDW</DataSourceID>
+  <Schema>
+    <xs:schema id="Darivatelji_x0020_DW" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Darivatelji_x0020_DW" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="1c36ebd9-71b9-4d64-bffd-22f7c715df45">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Fact_Akcija_Sluzba" msprop:design-time-name="3d6b40d2-0c6a-474e-aa84-b3ca5c1bcf4c" msprop:DbTableName="Fact_Akcija_Sluzba" msprop:FriendlyName="Fact_Akcija_Sluzba" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="FactAkcijaSluzbaID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="5d57e21f-8225-4b9d-898a-07a4f0cd2112" msprop:DbColumnName="FactAkcijaSluzbaID" msprop:FriendlyName="FactAkcijaSluzbaID" type="xs:int" />
+                  <xs:element name="AkcijaID" msprop:design-time-name="cd1b9489-cbc9-4ad0-b5d3-bd032d097167" msprop:DbColumnName="AkcijaID" msprop:FriendlyName="AkcijaID" type="xs:int" minOccurs="0" />
+                  <xs:element name="SluzbaID" msprop:design-time-name="4825268f-5a8f-4d0c-b26f-c77afe6b17da" msprop:DbColumnName="SluzbaID" msprop:FriendlyName="SluzbaID" type="xs:int" minOccurs="0" />
+                  <xs:element name="BrojDoza" msprop:design-time-name="a91722d9-ac53-4697-8ca4-58bfd260a3fe" msprop:DbColumnName="BrojDoza" msprop:FriendlyName="BrojDoza" type="xs:int" minOccurs="0" />
+                  <xs:element name="Ukupno" msprop:design-time-name="d5b433ba-6775-4824-8d65-52ddbb3590c3" msprop:DbColumnName="Ukupno" msprop:FriendlyName="Ukupno" type="xs:int" minOccurs="0" />
+                  <xs:element name="DimSluzbaID" msprop:design-time-name="77ebf6bc-03ca-4c6e-a64b-39a5ee8064f1" msprop:DbColumnName="DimSluzbaID" msprop:FriendlyName="DimSluzbaID" type="xs:int" minOccurs="0" />
+                  <xs:element name="DimOsobljeID" msprop:design-time-name="77c8bde6-78d2-46e9-8d17-39ea57592460" msprop:DbColumnName="DimOsobljeID" msprop:FriendlyName="DimOsobljeID" type="xs:int" minOccurs="0" />
+                  <xs:element name="DimDarivateljID" msprop:design-time-name="fd11bf20-e046-4a9e-ab33-1ec6370a2682" msprop:DbColumnName="DimDarivateljID" msprop:FriendlyName="DimDarivateljID" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_dim_darivatelj" msprop:design-time-name="8410b04a-ee45-43f7-9b33-85a918c93376" msprop:DbTableName="dim_darivatelj" msprop:FriendlyName="dim_darivatelj" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="DarivateljiID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="44eca224-ee95-40be-8ab7-50432f944fb0" msprop:DbColumnName="DarivateljiID" msprop:FriendlyName="DarivateljiID" type="xs:int" />
+                  <xs:element name="DarivateljiAltKey" msprop:design-time-name="93e2e7bb-6373-4cd8-8290-aabfff9b4d60" msprop:DbColumnName="DarivateljiAltKey" msprop:FriendlyName="DarivateljiAltKey" type="xs:int" minOccurs="0" />
+                  <xs:element name="KrvnaGrupa" msprop:design-time-name="e83b0900-9782-40f5-9aac-319bd7235f67" msprop:DbColumnName="KrvnaGrupa" msprop:FriendlyName="KrvnaGrupa" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="5" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AkcijaID" msprop:design-time-name="7bb1119d-577f-4de8-a67a-5a4cc91e05bc" msprop:DbColumnName="AkcijaID" msprop:FriendlyName="AkcijaID" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_dim_osoblje" msprop:design-time-name="6197ca43-2208-4fe7-950f-36ffd0a2774e" msprop:DbTableName="dim_osoblje" msprop:FriendlyName="dim_osoblje" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="OsobljeID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="b0ddbe0c-f953-4aa8-8716-1169158ccaab" msprop:DbColumnName="OsobljeID" msprop:FriendlyName="OsobljeID" type="xs:int" />
+                  <xs:element name="OsobljeAltKey" msprop:design-time-name="b6df35a3-8e96-4b99-85fc-c52cd09cf870" msprop:DbColumnName="OsobljeAltKey" msprop:FriendlyName="OsobljeAltKey" type="xs:int" minOccurs="0" />
+                  <xs:element name="AkcijaID" msprop:design-time-name="ff18e772-3d0d-4791-b6c9-bb5525d56687" msprop:DbColumnName="AkcijaID" msprop:FriendlyName="AkcijaID" type="xs:int" minOccurs="0" />
+                  <xs:element name="DatumAkcije" msprop:design-time-name="01cfca1d-bb2c-49c6-899c-63cdda785a5c" msprop:DbColumnName="DatumAkcije" msprop:FriendlyName="DatumAkcije" type="xs:dateTime" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_dim_sluzba" msprop:design-time-name="2f98c366-ebdb-49fb-b487-0c16d5b1e812" msprop:DbTableName="dim_sluzba" msprop:FriendlyName="dim_sluzba" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="SluzbaID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="d2cc66dd-aa22-433d-af8a-1e25c29ce1b1" msprop:DbColumnName="SluzbaID" msprop:FriendlyName="SluzbaID" type="xs:int" />
+                  <xs:element name="SluzbaAltKey" msprop:design-time-name="43c13103-7a34-4499-a94f-8240adbffc44" msprop:DbColumnName="SluzbaAltKey" msprop:FriendlyName="SluzbaAltKey" type="xs:int" minOccurs="0" />
+                  <xs:element name="NazivBolnice" msprop:design-time-name="481c400e-1b55-4430-b56d-e9e01ca40578" msprop:DbColumnName="NazivBolnice" msprop:FriendlyName="NazivBolnice" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="NazivSluzbe" msprop:design-time-name="9350f767-c8de-42e1-836d-517df5c1fbfa" msprop:DbColumnName="NazivSluzbe" msprop:FriendlyName="NazivSluzbe" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Fact_Akcija_Sluzba" />
+          <xs:field xpath="FactAkcijaSluzbaID" />
+        </xs:unique>
+        <xs:unique name="dbo_dim_darivatelj_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_dim_darivatelj" />
+          <xs:field xpath="DarivateljiID" />
+        </xs:unique>
+        <xs:unique name="dbo_dim_osoblje_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_dim_osoblje" />
+          <xs:field xpath="OsobljeID" />
+        </xs:unique>
+        <xs:unique name="dbo_dim_sluzba_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_dim_sluzba" />
+          <xs:field xpath="SluzbaID" />
+        </xs:unique>
+        <xs:keyref name="FK_DimOsoblje" refer="dbo_dim_osoblje_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_Akcija_Sluzba" />
+          <xs:field xpath="DimOsobljeID" />
+        </xs:keyref>
+        <xs:keyref name="FK_DimSluzba" refer="dbo_dim_sluzba_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_Akcija_Sluzba" />
+          <xs:field xpath="DimSluzbaID" />
+        </xs:keyref>
+        <xs:keyref name="FK_DimDarivatelj" refer="dbo_dim_darivatelj_Constraint1">
+          <xs:selector xpath=".//dbo_Fact_Akcija_Sluzba" />
+          <xs:field xpath="DimDarivateljID" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Darivatelji_x0020_DW xmlns="" />
+  </Schema>
+</DataSourceView>

@@ -1,0 +1,566 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5d9661f5-e52d-4525-a239-3d0e243e79a8" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>UpisStudenataCube</ID>
+  <Name>UpisStudenataCube</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="30" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2089" scrolltop="-38" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="94" x="25718" y="13414" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimStudij" left="5886" top="0" logicalid="15" controlid="1" masterid="0" hint1="0" hint2="0" width="3281" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000d10c00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimStudij" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimSpol" left="11964" top="9249" logicalid="16" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="1455" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000af050000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimSpol" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimSemestar" left="9066" top="13104" logicalid="17" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimSemestar" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimNacinStudiranja" left="2988" top="13104" logicalid="18" controlid="4" masterid="0" hint1="0" hint2="0" width="3678" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00005e0e000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimNacinStudiranja" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimLokacija" left="20" top="6474" logicalid="19" controlid="5" masterid="0" hint1="0" hint2="0" width="3069" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000fd0b00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimLokacija" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="FactUpisStudenata" left="5489" top="5549" logicalid="20" controlid="6" masterid="0" hint1="0" hint2="0" width="4075" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000eb0f000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_FactUpisStudenata" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimAkademskaGodina" left="11964" top="5394" logicalid="21" controlid="7" masterid="0" hint1="0" hint2="0" width="4075" height="1455" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000eb0f0000af050000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimAkademskaGodina" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="7127" top="2650" logicalid="22" controlid="8" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_UpisStudenata_Studij]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="6" sourceattachpoint="5" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7526" y="3149" />
+              <point x="7526" y="5549" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="9264" top="9399" logicalid="23" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="977" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_UpisStudenata_Spol]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="6" sourceattachpoint="12" destattachpoint="29" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="11964" y="9976" />
+              <point x="10764" y="9976" />
+              <point x="10764" y="9699" />
+              <point x="9564" y="9699" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="7776" top="10249" logicalid="24" controlid="10" masterid="0" hint1="0" hint2="0" width="3190" height="3355" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_UpisStudenata_Semestar]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="6" sourceattachpoint="4" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="10566" y="13104" />
+              <point x="10566" y="11827" />
+              <point x="8076" y="11827" />
+              <point x="8076" y="10549" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4428" top="10249" logicalid="25" controlid="11" masterid="0" hint1="0" hint2="0" width="2298" height="3355" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_UpisStudenata_NacinStudiranja]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="6" sourceattachpoint="6" destattachpoint="3" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="4827" y="13104" />
+              <point x="4827" y="11827" />
+              <point x="6426" y="11827" />
+              <point x="6426" y="10549" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2789" top="7649" logicalid="26" controlid="12" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_UpisStudenata_Lokacija]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="6" sourceattachpoint="15" destattachpoint="22" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3089" y="8048" />
+              <point x="4289" y="8048" />
+              <point x="4289" y="8049" />
+              <point x="5489" y="8049" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="9264" top="6272" logicalid="27" controlid="13" masterid="0" hint1="0" hint2="0" width="3000" height="2077" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_UpisStudenata_AkademskaGodina]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="6" sourceattachpoint="18" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="11964" y="6671" />
+              <point x="10764" y="6671" />
+              <point x="10764" y="8049" />
+              <point x="9564" y="8049" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="9264" top="5172" logicalid="28" controlid="14" masterid="0" hint1="0" hint2="0" width="3000" height="1527" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_UpisStudenata_NastavniPlan]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="6" sourceattachpoint="14" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="11964" y="5571" />
+              <point x="10764" y="5571" />
+              <point x="10764" y="6399" />
+              <point x="9564" y="6399" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2089</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-38</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>94</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="6c6da1ac-43f1-4505-9511-22ca6ab0d772">
+      <ID>Dim Lokacija</ID>
+      <Name>Dim Lokacija</Name>
+      <DimensionID>Dim Lokacija</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="f2711ac8-01cc-4bbd-8f0f-577b67daa077">
+          <AttributeID>Lokacija Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="869534b3-ab44-4108-ad1f-6555e8f82011">
+          <AttributeID>Grad</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ff22be1e-038d-4eee-88e4-7ae718622452">
+          <AttributeID>Regija</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bf54d22d-1cd0-462f-bcf1-115996b4abcd">
+          <AttributeID>Drzava</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="c95db375-a90b-448c-bd98-4dc9c5f25360">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="021a4e00-a0db-4136-be9e-842d53fb217d">
+      <ID>Dim Akademska Godina</ID>
+      <Name>Dim Akademska Godina</Name>
+      <DimensionID>Dim Akademska Godina</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="5e14bc3d-dc0e-43ef-94ce-1e01b652366b">
+          <AttributeID>Akademska Godina Key</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="5728c4e4-3c17-43a1-8e8f-d8f37b6c9fdf">
+      <ID>Nastavni Plan</ID>
+      <Name>Nastavni Plan</Name>
+      <DimensionID>Dim Akademska Godina</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e160c4ea-8c80-4b84-8008-57f9f7c94f43">
+          <AttributeID>Akademska Godina Key</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="2a9afcbe-269d-4ffa-82ab-b951dae836df">
+      <ID>Dim Spol</ID>
+      <Name>Dim Spol</Name>
+      <DimensionID>Dim Spol</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="226e4dc2-7091-47aa-ac9b-d29aa7f5ce38">
+          <AttributeID>Spol Key</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="86f84914-d2e8-4ebd-9555-db6f13285f39">
+      <ID>Dim Studij</ID>
+      <Name>Dim Studij</Name>
+      <DimensionID>Dim Studij</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e776b372-96df-474c-8dd3-22a5b2fcf813">
+          <AttributeID>Studij Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7ddafff1-75c1-43ab-aa68-b691b5c3c04b">
+          <AttributeID>Smjer</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="582b8a73-27d2-4fb0-9215-3a1ff82a62aa">
+          <AttributeID>Studijski Program</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4604f2b4-e1d6-4c53-9682-6e2157f39bd1">
+          <AttributeID>Fakultet</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="d7176ff2-db98-4dde-8c51-67fd5ab2de5c">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="a8d7b3a0-40b6-43a3-a5a4-1c6a0cd1eb5d">
+      <ID>Dim Semestar</ID>
+      <Name>Dim Semestar</Name>
+      <DimensionID>Dim Semestar</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="f64c1322-6caf-432e-8dcf-91cca23584e3">
+          <AttributeID>Semestar Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="03534480-c2f0-4306-a677-fdf311df4885">
+          <AttributeID>Semestar</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="8657d3e2-19bc-4b93-a919-67934522c653">
+      <ID>Dim Nacin Studiranja</ID>
+      <Name>Dim Nacin Studiranja</Name>
+      <DimensionID>Dim Nacin Studiranja</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="6d629194-3d22-4f45-acc9-cb569e0985d0">
+          <AttributeID>Nacin Studiranja Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="416432b7-cff8-4c0f-8269-dc7cc660078e">
+          <AttributeID>Nacin Studiranja</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="ba79b2f8-7094-4b8e-bdb0-8d4346a7648e">
+      <ID>Fact Upis Studenata</ID>
+      <Name>Fact Upis Studenata</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="7ede44d1-e7df-4dd9-9031-fb2d3af518a8">
+          <ID>Ukupno Upisano</ID>
+          <Name>Ukupno Upisano</Name>
+          <Source dwd:design-time-name="c6d74859-bceb-49b0-9260-5a6ed92bfe95">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="41226081-6d3c-41a5-976b-3dbb88a5a618">
+              <TableID>dbo_FactUpisStudenata</TableID>
+              <ColumnID>BrojUpisa</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a060758f-1c30-4a17-8517-ea87f070484b">
+          <CubeDimensionID>Dim Lokacija</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a21d5627-f0c0-4bb4-8bf3-73fe86b7e009">
+              <AttributeID>Lokacija Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1800fe6d-8853-4ba6-9567-12fdb190384d">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f13a4794-f7c5-4e00-9330-8ace59788f28">
+                    <TableID>dbo_FactUpisStudenata</TableID>
+                    <ColumnID>LokacijaKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="92539a73-2396-429f-83b3-465759b9c49f">
+          <CubeDimensionID>Dim Akademska Godina</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="12b0fcc3-b780-46e9-83cb-fac60f36ad31">
+              <AttributeID>Akademska Godina Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="21368184-9583-41c5-ac4e-dd228a157401">
+                  <DataType>WChar</DataType>
+                  <DataSize>9</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="81f44983-7d47-4453-97c9-02fd8de0f9a9">
+                    <TableID>dbo_FactUpisStudenata</TableID>
+                    <ColumnID>AkademskaGodinaKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a41e38fa-0161-43ed-b0a0-b184ec15adb6">
+          <CubeDimensionID>Nastavni Plan</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="fd8053bd-1411-4008-bacb-02925d72f976">
+              <AttributeID>Akademska Godina Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="56a769e8-8fdf-4760-b00d-8c7345ede840">
+                  <DataType>WChar</DataType>
+                  <DataSize>9</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f6ab9d25-1d4e-4b71-84df-c9cf367e4036">
+                    <TableID>dbo_FactUpisStudenata</TableID>
+                    <ColumnID>NastavniPlanKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="64d9ebf6-ea13-4a00-9343-96f2f213f4c6">
+          <CubeDimensionID>Dim Spol</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="68e38bee-3df7-46a2-9ee8-d4abb1960fac">
+              <AttributeID>Spol Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="18e184ee-a00c-4471-9268-96545a64cdfd">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="46b7a391-1e2c-4818-b6d4-9b945ba07f50">
+                    <TableID>dbo_FactUpisStudenata</TableID>
+                    <ColumnID>SpolKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2b556183-2830-42cb-a202-ccbf3eea65f0">
+          <CubeDimensionID>Dim Studij</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="2461375c-2978-4117-b424-57359e8dfa23">
+              <AttributeID>Studij Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1ce8e2c0-2193-4013-a8f6-cac8b5ff9d1c">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7b5ce1aa-6d90-49eb-8f55-9461e86b492d">
+                    <TableID>dbo_FactUpisStudenata</TableID>
+                    <ColumnID>StudijKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="79ad3381-7413-4525-b32d-54dd09c5a4ac">
+          <CubeDimensionID>Dim Semestar</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="2692cd41-4e44-40e0-92f5-6ba4c818c576">
+              <AttributeID>Semestar Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="55a34cd1-9a34-44bb-8c02-69b2e10ea4b4">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2ae5b62f-7828-49fd-b1b1-99a6ffcacf32">
+                    <TableID>dbo_FactUpisStudenata</TableID>
+                    <ColumnID>SemestarKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="bf3331cd-a618-4392-9651-f7a0ef8284f8">
+          <CubeDimensionID>Dim Nacin Studiranja</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e95f761a-90f8-4bd6-b502-39e32a1009eb">
+              <AttributeID>Nacin Studiranja Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="42a5ac6e-dc5f-4a83-9dd8-f62b5579e0a5">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e589a392-5031-4ad6-aa84-baf28c518f47">
+                    <TableID>dbo_FactUpisStudenata</TableID>
+                    <ColumnID>NacinStudiranjaKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="f0dffedd-78d8-4cc1-a0ae-1c8efad4024e">
+    <DataSourceViewID>StudentskaSluzbaDW</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="6b5439e0-fb57-44b4-82ae-06704358b4f9">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>  /*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+</Cube>

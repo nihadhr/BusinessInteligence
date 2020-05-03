@@ -1,0 +1,256 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="32029638-4b84-4879-8c0c-1e6d89cdcb72" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>StudentskaSluzbaDW</ID>
+  <Name>StudentskaSluzbaDW</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Studentska Sluzba DW</DataSourceID>
+  <Schema>
+    <xs:schema id="StudentskaSluzbaDW" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="StudentskaSluzbaDW" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="8b023c63-32f0-4c37-a3c7-6b13480318eb">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_DimAkademskaGodina" msprop:design-time-name="ee10b3c3-51e8-4391-b9df-80abf03f3a75" msprop:DbTableName="DimAkademskaGodina" msprop:FriendlyName="DimAkademskaGodina" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="AkademskaGodinaKey" msprop:design-time-name="bdad9f67-10b8-451b-85f7-f39925c2e936" msprop:DbColumnName="AkademskaGodinaKey" msprop:FriendlyName="AkademskaGodinaKey">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="9" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DimLokacija" msprop:design-time-name="19d4d030-b419-42f9-8a5a-9d9bf01babfc" msprop:DbTableName="DimLokacija" msprop:FriendlyName="DimLokacija" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="LokacijaKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="ac04a642-7ac5-4dec-8b31-3bbcaad9d0aa" msprop:DbColumnName="LokacijaKey" msprop:FriendlyName="LokacijaKey" type="xs:int" />
+                  <xs:element name="LokacijaAltKey" msprop:design-time-name="721f106b-eb8a-4a27-aa4c-4901626e7295" msprop:DbColumnName="LokacijaAltKey" msprop:FriendlyName="LokacijaAltKey" type="xs:int" />
+                  <xs:element name="Grad" msprop:design-time-name="91520b17-23a2-4b78-b55b-6f2658332d50" msprop:DbColumnName="Grad" msprop:FriendlyName="Grad" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Regija" msprop:design-time-name="760d2703-522d-4212-9161-faf35722670d" msprop:DbColumnName="Regija" msprop:FriendlyName="Regija" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Drzava" msprop:design-time-name="4983bef2-c5ea-4f50-90dd-6affeb292301" msprop:DbColumnName="Drzava" msprop:FriendlyName="Drzava" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DimNacinStudiranja" msprop:design-time-name="dff2ad4b-9be5-498b-84eb-5580e9b52f92" msprop:DbTableName="DimNacinStudiranja" msprop:FriendlyName="DimNacinStudiranja" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="NacinStudiranjaKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="72e8d8e6-0cef-4cbf-aec6-92d383a5c87e" msprop:DbColumnName="NacinStudiranjaKey" msprop:FriendlyName="NacinStudiranjaKey" type="xs:int" />
+                  <xs:element name="NacinStudiranja" msprop:design-time-name="e0a6e3c1-31ba-4ba5-b2e5-0bb4db33770b" msprop:DbColumnName="NacinStudiranja" msprop:FriendlyName="NacinStudiranja">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DimSemestar" msprop:design-time-name="922b0104-dec2-4e2e-be0e-a7de19dfbb10" msprop:DbTableName="DimSemestar" msprop:FriendlyName="DimSemestar" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="SemestarKey" msprop:design-time-name="9838662d-918c-417c-b505-beb7a85bbb27" msprop:DbColumnName="SemestarKey" msprop:FriendlyName="SemestarKey" type="xs:int" />
+                  <xs:element name="Semestar" msprop:design-time-name="971584a5-57a9-4a3f-9475-acb9005281ca" msprop:DbColumnName="Semestar" msprop:FriendlyName="Semestar" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DimSpol" msprop:design-time-name="4d9bd1fe-30c1-4d35-8f65-bd8e5bb46884" msprop:DbTableName="DimSpol" msprop:FriendlyName="DimSpol" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="SpolKey" msprop:design-time-name="cca8d983-2e58-4193-bdb7-ea9eb2b84925" msprop:DbColumnName="SpolKey" msprop:FriendlyName="SpolKey">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DimStudij" msprop:design-time-name="3c728e98-daf4-4374-80a1-14fd5c09c217" msprop:DbTableName="DimStudij" msprop:FriendlyName="DimStudij" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="StudijKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="7867bfe4-3dd1-481c-845a-9e9f43977b4b" msprop:DbColumnName="StudijKey" msprop:FriendlyName="StudijKey" type="xs:int" />
+                  <xs:element name="StudijAltKey" msprop:design-time-name="aa5177ed-6cb1-463f-998f-7c1ed302e01e" msprop:DbColumnName="StudijAltKey" msprop:FriendlyName="StudijAltKey" type="xs:int" />
+                  <xs:element name="Smjer" msprop:design-time-name="de1befe9-74fc-470f-b358-9dfa4479ffba" msprop:DbColumnName="Smjer" msprop:FriendlyName="Smjer" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="StudijskiProgram" msprop:design-time-name="da820fd9-c433-4b10-ac55-ef32fc51fcbf" msprop:DbColumnName="StudijskiProgram" msprop:FriendlyName="StudijskiProgram" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Fakultet" msprop:design-time-name="269337df-3d15-4cda-894f-a9c40de9fd03" msprop:DbColumnName="Fakultet" msprop:FriendlyName="Fakultet" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_FactUpisStudenata" msprop:design-time-name="f9e9ede4-114a-4bcc-9c9c-41c884f8d94b" msprop:DbTableName="FactUpisStudenata" msprop:FriendlyName="FactUpisStudenata" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="UpisStudenataKey" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="ec98c9be-cbd0-431b-93bb-a8210f11a15c" msprop:DbColumnName="UpisStudenataKey" msprop:FriendlyName="UpisStudenataKey" type="xs:int" />
+                  <xs:element name="LokacijaKey" msprop:design-time-name="d0c3bae7-69ef-4084-ab6f-e4bf9793fde5" msprop:DbColumnName="LokacijaKey" msprop:FriendlyName="LokacijaKey" type="xs:int" minOccurs="0" />
+                  <xs:element name="StudijKey" msprop:design-time-name="2c4e3418-8492-4b6e-92a7-e2fa4e410638" msprop:DbColumnName="StudijKey" msprop:FriendlyName="StudijKey" type="xs:int" minOccurs="0" />
+                  <xs:element name="AkademskaGodinaKey" msprop:design-time-name="62385263-d26e-4aff-b0ec-c7ffd1f00412" msprop:DbColumnName="AkademskaGodinaKey" msprop:FriendlyName="AkademskaGodinaKey" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="9" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="NastavniPlanKey" msprop:design-time-name="cfc2249d-f837-48b0-84b7-4ca87313cc8c" msprop:DbColumnName="NastavniPlanKey" msprop:FriendlyName="NastavniPlanKey" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="9" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="SemestarKey" msprop:design-time-name="ac80ca9f-09c3-411e-a00f-eb8e308059dd" msprop:DbColumnName="SemestarKey" msprop:FriendlyName="SemestarKey" type="xs:int" minOccurs="0" />
+                  <xs:element name="NacinStudiranjaKey" msprop:design-time-name="8f15ff37-930a-4af8-b103-abc9d7db239b" msprop:DbColumnName="NacinStudiranjaKey" msprop:FriendlyName="NacinStudiranjaKey" type="xs:int" minOccurs="0" />
+                  <xs:element name="SpolKey" msprop:design-time-name="b00a73ec-afe3-4ba1-bd9c-69c428eaa963" msprop:DbColumnName="SpolKey" msprop:FriendlyName="SpolKey" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="6" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="BrojUpisa" msprop:design-time-name="cf4fda6f-789b-48e0-9692-0a2abc1d3edc" msprop:DbColumnName="BrojUpisa" msprop:FriendlyName="BrojUpisa" type="xs:int" minOccurs="0" />
+                  <xs:element name="UkupnoUpisano" msprop:design-time-name="e2b1f317-8793-4d95-90af-418178705964" msprop:DbColumnName="UkupnoUpisano" msprop:FriendlyName="UkupnoUpisano" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DimAkademskaGodina" />
+          <xs:field xpath="AkademskaGodinaKey" />
+        </xs:unique>
+        <xs:unique name="dbo_DimLokacija_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DimLokacija" />
+          <xs:field xpath="LokacijaKey" />
+        </xs:unique>
+        <xs:unique name="dbo_DimNacinStudiranja_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DimNacinStudiranja" />
+          <xs:field xpath="NacinStudiranjaKey" />
+        </xs:unique>
+        <xs:unique name="dbo_DimSemestar_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DimSemestar" />
+          <xs:field xpath="SemestarKey" />
+        </xs:unique>
+        <xs:unique name="dbo_DimSpol_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DimSpol" />
+          <xs:field xpath="SpolKey" />
+        </xs:unique>
+        <xs:unique name="dbo_DimStudij_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DimStudij" />
+          <xs:field xpath="StudijKey" />
+        </xs:unique>
+        <xs:unique name="dbo_FactUpisStudenata_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_FactUpisStudenata" />
+          <xs:field xpath="UpisStudenataKey" />
+        </xs:unique>
+        <xs:keyref name="FK_UpisStudenata_NacinStudiranja" refer="dbo_DimNacinStudiranja_Constraint1">
+          <xs:selector xpath=".//dbo_FactUpisStudenata" />
+          <xs:field xpath="NacinStudiranjaKey" />
+        </xs:keyref>
+        <xs:keyref name="FK_UpisStudenata_Semestar" refer="dbo_DimSemestar_Constraint1">
+          <xs:selector xpath=".//dbo_FactUpisStudenata" />
+          <xs:field xpath="SemestarKey" />
+        </xs:keyref>
+        <xs:keyref name="FK_UpisStudenata_Studij" refer="dbo_DimStudij_Constraint1">
+          <xs:selector xpath=".//dbo_FactUpisStudenata" />
+          <xs:field xpath="StudijKey" />
+        </xs:keyref>
+        <xs:keyref name="FK_UpisStudenata_Spol" refer="dbo_DimSpol_Constraint1">
+          <xs:selector xpath=".//dbo_FactUpisStudenata" />
+          <xs:field xpath="SpolKey" />
+        </xs:keyref>
+        <xs:keyref name="FK_UpisStudenata_NastavniPlan" refer="Constraint1">
+          <xs:selector xpath=".//dbo_FactUpisStudenata" />
+          <xs:field xpath="NastavniPlanKey" />
+        </xs:keyref>
+        <xs:keyref name="FK_UpisStudenata_AkademskaGodina" refer="Constraint1">
+          <xs:selector xpath=".//dbo_FactUpisStudenata" />
+          <xs:field xpath="AkademskaGodinaKey" />
+        </xs:keyref>
+        <xs:keyref name="FK_UpisStudenata_Lokacija" refer="dbo_DimLokacija_Constraint1">
+          <xs:selector xpath=".//dbo_FactUpisStudenata" />
+          <xs:field xpath="LokacijaKey" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <StudentskaSluzbaDW xmlns="" />
+  </Schema>
+</DataSourceView>

@@ -1,0 +1,456 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="408b43cc-79d2-4432-995c-0c5813721bd6" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>PublikacijaDW</ID>
+  <Name>PublikacijaDW</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6751" scrolltop="30" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="76" x="21616" y="13282" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="dim_autor" left="8128" top="12525" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3704" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000780e00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_dim_autor" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="dim_citalac" left="2421" top="12525" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3307" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000eb0c000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_dim_citalac" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="dim_izdavac" left="11233" top="6262" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3096" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000180c0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_dim_izdavac" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="dim_zanr" left="20" top="6474" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_dim_zanr" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Fact_publikacija" left="5420" top="5125" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3413" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000550d000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Fact_publikacija" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="dim_forma_pub" left="5499" top="0" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="3254" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b60c0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_dim_forma_pub" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="7376" top="9825" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="3004" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Autor]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="5" sourceattachpoint="6" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="9980" y="12525" />
+              <point x="9980" y="11325" />
+              <point x="7676" y="11325" />
+              <point x="7676" y="10125" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3675" top="9825" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="2651" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Citalac]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="5" sourceattachpoint="4" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="4074" y="12525" />
+              <point x="4074" y="11325" />
+              <point x="6026" y="11325" />
+              <point x="6026" y="10125" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="8533" top="7225" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Izdavac]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="5" sourceattachpoint="14" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="11233" y="7624" />
+              <point x="10033" y="7624" />
+              <point x="10033" y="7625" />
+              <point x="8833" y="7625" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2720" top="7226" logicalid="10" controlid="10" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Zanr]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="5" sourceattachpoint="13" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3020" y="7625" />
+              <point x="5420" y="7625" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="6727" top="2226" logicalid="11" controlid="11" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Forma]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="5" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7126" y="2725" />
+              <point x="7126" y="5125" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-6751</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>30</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>76</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="4f1921d4-35ae-4636-ad26-206b59bd3cce">
+      <ID>Dim Zanr</ID>
+      <Name>Dim Zanr</Name>
+      <DimensionID>Dim Zanr</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="13cfa2c3-49a4-40db-8a0c-5ddc1c628a71">
+          <AttributeID>Zanr ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="70ab264a-0bf9-45ff-bfca-febbaeb2e124">
+          <AttributeID>Zanr Naziv</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="2772a9f0-4270-4e6a-a684-067a84d3c9e3">
+      <ID>Dim Autor</ID>
+      <Name>Dim Autor</Name>
+      <DimensionID>Dim Autor</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e37809d3-ff05-4194-a6f5-20b33c0146d2">
+          <AttributeID>Autor Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d50133d1-8f65-4ee5-9e82-f73798a71aa6">
+          <AttributeID>Naziv Grada Autora</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="892d1484-5462-46a8-a215-9dbded21f216">
+          <AttributeID>Spol Autora</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="8666b662-c929-4da4-beb3-58d2c4994ec5">
+      <ID>Dim Forma Pub</ID>
+      <Name>Dim Forma Pub</Name>
+      <DimensionID>Dim Forma Pub</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="3b9a5b99-650a-4328-9876-a36010aeff01">
+          <AttributeID>Formapub ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="29a93e0e-e6fb-4e23-a21c-ce84b3bd2c2c">
+          <AttributeID>Formapub Naziv</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2e25d073-77f5-4cbd-8724-b4aa71a3cd15">
+          <AttributeID>Max Duz Zadrz</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="7a449af2-840f-426b-897b-5e6e3e79f457">
+      <ID>Dim Izdavac</ID>
+      <Name>Dim Izdavac</Name>
+      <DimensionID>Dim Izdavac</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="7914ce0f-88ec-4f91-b80b-089797380c2f">
+          <AttributeID>Izdavac ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="80305c23-6f34-4c20-b4f5-5a7546ffe209">
+          <AttributeID>Izdavac Alt Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b37315d1-815a-4008-b76f-b7cba27810dd">
+          <AttributeID>Naziv Grada</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="450021d2-f12f-419f-8422-26bbc254cbb7">
+          <AttributeID>Naziv Izdavaca</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="3da2a836-a47f-47cf-bc11-649f6895a115">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="1a284fca-317b-438b-a5f1-58438b9fe591">
+      <ID>Dim Citalac</ID>
+      <Name>Dim Citalac</Name>
+      <DimensionID>Dim Citalac</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="eb644b6f-8083-4dd6-bc7b-65ca51656da3">
+          <AttributeID>Citalac ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c64743f9-43ba-4fad-976a-83bf6693eb0a">
+          <AttributeID>Naziv Grada</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d6204d0a-209f-417e-bd7f-7debd78fc39e">
+          <AttributeID>Spol</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c962c769-4837-426b-ba44-a6a2838c73b5">
+          <AttributeID>Dtm Podizanja</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b51faa2d-c862-4166-8025-8053e33d0d8f">
+          <AttributeID>Dtm Vracanja</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3e6d02a5-046a-4b7f-a1af-17c1a524c877">
+          <AttributeID>Br Dana Zadr</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="91b5c955-0719-4d9a-9130-57f901075665">
+      <ID>Fact Publikacija</ID>
+      <Name>Fact Publikacija</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="7c5c6265-da42-4c64-831e-15effc72debd">
+          <ID>Cijena</ID>
+          <Name>Cijena</Name>
+          <Source dwd:design-time-name="05c5c376-c7db-4d45-8ee0-22df4a7b031c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="78c83449-98b9-4612-91bb-54995adebac8">
+              <TableID>dbo_Fact_publikacija</TableID>
+              <ColumnID>Cijena</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="56b5b201-e504-42de-8eab-065dfe2e0262">
+          <ID>Fact Publikacija Count</ID>
+          <Name>Fact Publikacija Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="e9e80bf8-b2f9-404c-8259-520c4b157fc5">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="693a8744-2fa5-4ab9-86a8-ca0aef2ea812">
+              <TableID>dbo_Fact_publikacija</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b97993d3-ae90-47aa-95f1-f1e3ac4aa077">
+          <CubeDimensionID>Dim Zanr</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="413427e6-adda-49fc-9ead-5457f59426a0">
+              <AttributeID>Zanr ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="51425391-b5fc-473b-afdf-f2705fba2876">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4eeb02b8-2080-4d83-bc06-f4b2e7736da1">
+                    <TableID>dbo_Fact_publikacija</TableID>
+                    <ColumnID>ZanrKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d04f2ecf-7716-4545-8de3-f1030c830011">
+          <CubeDimensionID>Dim Autor</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7a145bd6-e055-41a9-98f4-e2a8cc772561">
+              <AttributeID>Autor Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="24750ff1-830b-42fa-b4f2-d89f4a13166f">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8b31190d-c731-4b34-b839-710d0a3b1f61">
+                    <TableID>dbo_Fact_publikacija</TableID>
+                    <ColumnID>AutorKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ec3da415-0fd2-49fe-b751-95e7173e3cb3">
+          <CubeDimensionID>Dim Forma Pub</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ad062d37-9628-4548-a61e-48a09d91c72a">
+              <AttributeID>Formapub ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="87045657-cbe4-4c52-a8e2-f290a5ab087a">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e8ecfac1-145a-46f0-9ade-0a51d360d18c">
+                    <TableID>dbo_Fact_publikacija</TableID>
+                    <ColumnID>FormaKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f06abc2b-47d4-44ae-98b7-f1d5ddd92d74">
+          <CubeDimensionID>Dim Izdavac</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="8d377cc1-c4be-4595-aaff-4c1f1c780e5a">
+              <AttributeID>Izdavac ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="78646e6b-6449-4a67-a64b-f642c802081b">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3fffa5fd-1d91-4941-94b8-ae84d17668ab">
+                    <TableID>dbo_Fact_publikacija</TableID>
+                    <ColumnID>IzdavacKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0eacdf9f-fd14-4e8b-b52e-ef94e6fc1fee">
+          <CubeDimensionID>Dim Citalac</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c8657b77-cf6a-4c55-b60b-3fbbeedc08a8">
+              <AttributeID>Citalac ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="52705ed8-78b8-4488-a1b3-9fa7609a9bc9">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="71052c75-ab3b-4509-9035-9860f23c3494">
+                    <TableID>dbo_Fact_publikacija</TableID>
+                    <ColumnID>CitalacKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="ee56c64a-4faf-4884-989e-9ce3df155ee0">
+    <DataSourceViewID>Publikacija DW</DataSourceViewID>
+  </Source>
+</Cube>
